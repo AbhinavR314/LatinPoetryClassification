@@ -1,0 +1,474 @@
+{
+ "fixed_info": {
+  "rows": 130320,
+  "classes": 21,
+  "texts": 86,
+  "majority_share": 0.845342234499693,
+  "class_counts": [
+   [
+    "H",
+    110165
+   ],
+   [
+    "P",
+    13113
+   ],
+   [
+    "G",
+    2530
+   ],
+   [
+    "F",
+    1051
+   ],
+   [
+    "L1",
+    512
+   ],
+   [
+    "O",
+    496
+   ],
+   [
+    "S1",
+    459
+   ],
+   [
+    "G1",
+    386
+   ],
+   [
+    "D",
+    340
+   ],
+   [
+    "Y",
+    312
+   ],
+   [
+    "T",
+    253
+   ],
+   [
+    "D2",
+    160
+   ],
+   [
+    "V",
+    125
+   ],
+   [
+    "I",
+    104
+   ],
+   [
+    "S2",
+    101
+   ],
+   [
+    "D3",
+    92
+   ],
+   [
+    "A",
+    63
+   ],
+   [
+    "S",
+    33
+   ],
+   [
+    "C",
+    10
+   ],
+   [
+    "X",
+    8
+   ],
+   [
+    "L",
+    7
+   ]
+  ]
+ },
+ "random_split": {
+  "majority_baseline": {
+   "acc": 0.845342234499693,
+   "macro_f1": 0.04362810471299566,
+   "weighted_f1": 0.7744942700264772,
+   "balanced_acc": 0.047619047619047616
+  },
+  "n_test": 26064,
+  "NB": {
+   "acc": 0.8652547575199508,
+   "macro_f1": 0.07369449806908936,
+   "weighted_f1": 0.8318596119074392,
+   "balanced_acc": 0.06814257768614909,
+   "vocab": 38637,
+   "secs": 0.1
+  },
+  "RF": {
+   "acc": 0.8457259054634745,
+   "macro_f1": 0.04922436855739837,
+   "weighted_f1": 0.7753958967806285,
+   "balanced_acc": 0.05057766819108794,
+   "vocab": 38637,
+   "secs": 3.6
+  },
+  "LGBM": {
+   "acc": 0.8435389809699202,
+   "macro_f1": 0.0435866936283256,
+   "weighted_f1": 0.7737591327106682,
+   "balanced_acc": 0.04751746838616534,
+   "vocab": 38637,
+   "secs": 6.1
+  }
+ },
+ "heldout_texts": {
+  "folds": [
+   {
+    "n_test": 26058,
+    "test_texts": [
+     "CLAVD-cami.xml",
+     "CLAVD-hon6.xml",
+     "COLVM-reru.xml",
+     "HOR-car4.xml",
+     "HOR-epi1.xml",
+     "MART_CAP-nupt.xml",
+     "OV-epis.xml",
+     "OV-hali.xml",
+     "OV-tri5.xml",
+     "PERS-satu.xml",
+     "PLIN-carm.xml",
+     "SIL-puni.xml",
+     "STAT-achi.xml",
+     "STAT-sil2.xml",
+     "TIB-ele1.xml",
+     "VERG_APP-cule.xml",
+     "VERG_APP-dira.xml"
+    ]
+   },
+   {
+    "n_test": 26059,
+    "test_texts": [
+     "CLAVD-hon3.xml",
+     "CLAVD-nupt.xml",
+     "CLAVD-pros.xml",
+     "CLAVD-stil.xml",
+     "GERM-arat.xml",
+     "GRATT-cyne.xml",
+     "HOR-arpo.xml",
+     "MANIL-astr.xml",
+     "OV-amo1.xml",
+     "OV-amo2.xml",
+     "OV-amo3.xml",
+     "OV-ibis.xml",
+     "OV-medi.xml",
+     "OV-meta.xml",
+     "OV-tri1.xml",
+     "SEN-mede.xml",
+     "VERG_APP-rosi.xml"
+    ]
+   },
+   {
+    "n_test": 26072,
+    "test_texts": [
+     "CLAVD-eutr.xml",
+     "CLAVD-gild.xml",
+     "CLAVD-goth.xml",
+     "CLAVD-rufi.xml",
+     "HOMER-ilia.xml",
+     "HOR-epod.xml",
+     "MART-spec.xml",
+     "OV-aram.xml",
+     "OV-fast.xml",
+     "SEN-apoc.xml",
+     "STAT-sil1.xml",
+     "STAT-sil3.xml",
+     "STAT-sil4.xml",
+     "STAT-sil5.xml",
+     "TIB-ele2.xml",
+     "VERG-aene.xml",
+     "VERG_APP-copa.xml"
+    ]
+   },
+   {
+    "n_test": 26055,
+    "test_texts": [
+     "CATVLL-carm.xml",
+     "CLAVD-epig.xml",
+     "CLAVD-hon4.xml",
+     "CLAVD-prob.xml",
+     "ENN-anna.xml",
+     "HOR-car1.xml",
+     "HOR-sat1.xml",
+     "OV-amo0.xml",
+     "OV-pon1.xml",
+     "OV-pon2.xml",
+     "OV-tri2.xml",
+     "OV-tri4.xml",
+     "PETRON-saty.xml",
+     "SEN-oedi.xml",
+     "STAT-theb.xml",
+     "VAL_FL-argo.xml",
+     "VERG-eclo.xml",
+     "VERG_APP-maec.xml"
+    ]
+   },
+   {
+    "n_test": 26076,
+    "test_texts": [
+     "CLAVD-mall.xml",
+     "HOR-epi2.xml",
+     "HOR-sat2.xml",
+     "LVCAN-phar.xml",
+     "LVCIL-satu.xml",
+     "LVCR-rena.xml",
+     "OV-pon3.xml",
+     "OV-pon4.xml",
+     "OV-reme.xml",
+     "OV-tri3.xml",
+     "PROP-ele1.xml",
+     "VERG-geor.xml",
+     "VERG_APP-aetn.xml",
+     "VERG_APP-cata.xml",
+     "VERG_APP-ciri.xml",
+     "VERG_APP-more.xml",
+     "VERG_APP-pria.xml"
+    ]
+   }
+  ],
+  "majority_baseline": [
+   {
+    "acc": 0.8312610330800522,
+    "macro_f1": 0.05674102558729227,
+    "weighted_f1": 0.754665656763428,
+    "balanced_acc": 0.0625
+   },
+   {
+    "acc": 0.880348440078284,
+    "macro_f1": 0.08512430426716142,
+    "weighted_f1": 0.8243295332177923,
+    "balanced_acc": 0.09090909090909091
+   },
+   {
+    "acc": 0.8046179809757594,
+    "macro_f1": 0.08106656361704183,
+    "weighted_f1": 0.7175037621640586,
+    "balanced_acc": 0.09090909090909091
+   },
+   {
+    "acc": 0.808405296488198,
+    "macro_f1": 0.04705543305608986,
+    "weighted_f1": 0.7227573649106886,
+    "balanced_acc": 0.05263157894736842
+   },
+   {
+    "acc": 0.9020555299892622,
+    "macro_f1": 0.13550085544924045,
+    "weighted_f1": 0.855605071833841,
+    "balanced_acc": 0.14285714285714285
+   }
+  ],
+  "NB": [
+   {
+    "acc": 0.8561286361194259,
+    "macro_f1": 0.08732498332287016,
+    "weighted_f1": 0.8195201112188689,
+    "balanced_acc": 0.08307435145674899,
+    "vocab": 38228,
+    "secs": 0.1
+   },
+   {
+    "acc": 0.8755516328331863,
+    "macro_f1": 0.12827807168452693,
+    "weighted_f1": 0.8578241144630606,
+    "balanced_acc": 0.12997142399742187,
+    "vocab": 38417,
+    "secs": 0.1
+   },
+   {
+    "acc": 0.8310064436943848,
+    "macro_f1": 0.1182999714396075,
+    "weighted_f1": 0.7855765166182616,
+    "balanced_acc": 0.11325334910141324,
+    "vocab": 38778,
+    "secs": 0.1
+   },
+   {
+    "acc": 0.8189598925350221,
+    "macro_f1": 0.07124247127730136,
+    "weighted_f1": 0.7599377922316652,
+    "balanced_acc": 0.07159884985836733,
+    "vocab": 38539,
+    "secs": 0.1
+   },
+   {
+    "acc": 0.9101856112900751,
+    "macro_f1": 0.20836150179355672,
+    "weighted_f1": 0.8976910891918932,
+    "balanced_acc": 0.2015697328241313,
+    "vocab": 38385,
+    "secs": 0.1
+   }
+  ],
+  "RF": [
+   {
+    "acc": 0.8312994090106685,
+    "macro_f1": 0.05682261850356545,
+    "weighted_f1": 0.7548316667598121,
+    "balanced_acc": 0.0625374632419879,
+    "vocab": 38228,
+    "secs": 3.4
+   },
+   {
+    "acc": 0.880501937910127,
+    "macro_f1": 0.08565957944658925,
+    "weighted_f1": 0.8248509704659874,
+    "balanced_acc": 0.09116659344285463,
+    "vocab": 38417,
+    "secs": 3.6
+   },
+   {
+    "acc": 0.8047330469469163,
+    "macro_f1": 0.08120598212054297,
+    "weighted_f1": 0.7177794765438161,
+    "balanced_acc": 0.09097626511419615,
+    "vocab": 38778,
+    "secs": 3.2
+   },
+   {
+    "acc": 0.8087890999808098,
+    "macro_f1": 0.047637952195542704,
+    "weighted_f1": 0.7237040978793614,
+    "balanced_acc": 0.05291871249318058,
+    "vocab": 38539,
+    "secs": 3.1
+   },
+   {
+    "acc": 0.9024390243902439,
+    "macro_f1": 0.13690379120819157,
+    "weighted_f1": 0.8565409106302923,
+    "balanced_acc": 0.14354827562374733,
+    "vocab": 38385,
+    "secs": 3.2
+   }
+  ],
+  "LGBM": [
+   {
+    "acc": 0.6941054570573336,
+    "macro_f1": 0.0623943462106597,
+    "weighted_f1": 0.699781426595625,
+    "balanced_acc": 0.06428794568704016,
+    "vocab": 38228,
+    "secs": 8.2
+   },
+   {
+    "acc": 0.8705629532982847,
+    "macro_f1": 0.08466884129910651,
+    "weighted_f1": 0.8199189059699462,
+    "balanced_acc": 0.08989859362554536,
+    "vocab": 38417,
+    "secs": 7.6
+   },
+   {
+    "acc": 0.6490871432954894,
+    "macro_f1": 0.08806886153057523,
+    "weighted_f1": 0.6609594360260024,
+    "balanced_acc": 0.09253779644533834,
+    "vocab": 38778,
+    "secs": 6.2
+   },
+   {
+    "acc": 0.7317981193628862,
+    "macro_f1": 0.05166849551127086,
+    "weighted_f1": 0.6950711093565634,
+    "balanced_acc": 0.055535227371562614,
+    "vocab": 38539,
+    "secs": 7.0
+   },
+   {
+    "acc": 0.8593342537198957,
+    "macro_f1": 0.13739411182927816,
+    "weighted_f1": 0.8374981830459917,
+    "balanced_acc": 0.1392434369815641,
+    "vocab": 38385,
+    "secs": 7.2
+   }
+  ],
+  "summary": {
+   "NB": {
+    "acc": [
+     0.8583664432944188,
+     0.03251771982493432
+    ],
+    "macro_f1": [
+     0.12270139990357251,
+     0.047513444585576894
+    ],
+    "weighted_f1": [
+     0.8241099247447499,
+     0.04934528725437024
+    ],
+    "balanced_acc": [
+     0.11989354144761655,
+     0.04583598170900152
+    ]
+   },
+   "RF": {
+    "acc": [
+     0.8455525036477531,
+     0.0391879210949232
+    ],
+    "macro_f1": [
+     0.08164598469488639,
+     0.03112064751673085
+    ],
+    "weighted_f1": [
+     0.7755414244558538,
+     0.05557840085009314
+    ],
+    "balanced_acc": [
+     0.08822946198319333,
+     0.03156982939489759
+    ]
+   },
+   "LGBM": {
+    "acc": [
+     0.760977585346778,
+     0.08891094520026692
+    ],
+    "macro_f1": [
+     0.0848389312761781,
+     0.029585623504042112
+    ],
+    "weighted_f1": [
+     0.7426458121988257,
+     0.07175162051439135
+    ],
+    "balanced_acc": [
+     0.08830060002221012,
+     0.02920909881426659
+    ]
+   },
+   "majority_baseline": {
+    "acc": [
+     0.8453376561223112,
+     0.03914821747578604
+    ],
+    "macro_f1": [
+     0.08109763639536517,
+     0.030750744255512736
+    ],
+    "weighted_f1": [
+     0.7749722777779617,
+     0.05546020629503785
+    ],
+    "balanced_acc": [
+     0.08796138072453862,
+     0.03139235414172609
+    ]
+   }
+  }
+ }
+}
